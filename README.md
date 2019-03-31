@@ -9,4 +9,9 @@
 难度选择模块先将难度选择的文字信息打印在屏幕上，然后通过控制键盘方向键选择，回车键确认，为了突出选中项，需要给选中项打上背景色，然后每一次上下移动时，先将当前的背景色去掉，然后给下一个选中项打上背景色，按下回车后通过改变蛇移动的速度实现改变难度。其中读取键盘输入是通过getch()函数完成的。
 ![](https://github.com/XZhuangZhuang/Snake_game/blob/master/images/%E6%8D%95%E8%8E%B72.PNG)
 游戏过程首先它先绘制出地图以及侧边栏，同时初始化蛇和食物，然后通过一个无穷循环监听键盘，以此来控制蛇移动，同时又进行各种判断，来判断是否死亡、吃到食物或暂停。
+
 ![](https://github.com/XZhuangZhuang/Snake_game/blob/master/images/%E6%8D%95%E8%8E%B73.PNG)
+
+游戏结束模块是最后游戏结束就是蛇撞到自己或边界后，会出现提示是否继续游戏还是结束游戏，可以通过键盘的左右键来进行选择。
+
+![](https://github.com/XZhuangZhuang/Snake_game/blob/master/images/%E6%8D%95%E8%8E%B74.PNG)
